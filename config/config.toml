@@ -1,0 +1,9 @@
+[path]
+data_csv = 'data.csv'
+data_parquet = 'data.parquet'
+model = 'model.xml'
+dataset = 'HMP_Dataset'
+
+[others]
+master = "local[*]"
+sample = 1.0
